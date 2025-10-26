@@ -39,7 +39,7 @@ jobs:
           command: |
             wget -O firefoxprofile.zip "???"
             unzip firefoxprofile.zip -d $HOME/
-            echo "Profile extracted to $HOME/?.default-release"
+            echo "Profile extracted to $HOME/?"
 
       - run:
           name: Run script
